@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MercaElx</title>
+  <meta name="description" content="Página web para dar visibilidad a los comercios de Elche">
+  <meta name="author" content="Jordi Ruiz">
+  <meta name="keywords" content="Elche, Elx, comercios, asociaciones">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="icon" type="image" href="../images/favicon.png">
+
+</head>
+<body>
+  <header>
+    <div class=" py-2 idiomas-padre">
+      <div class="container d-flex justify-content-end idiomas">
+        <a href="" class="me-3">Castellano</a>
+
+        <a href="">Valenciano</a>
+      </div>
+    </div>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      
+      <div class="container d-flex align-items-center justify-content-between">
+        <img src="../images/LOGO-HORIZONTAL-CASTELLANO-NEGRO.png" alt="Logo Ajuntament" class="img-fluid logo">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="landing.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comercio_list.html">Comercios </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="asociacion_list.html" >Asociaciones</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-primary" type="submit">Buscar</button>
+          </form>
+          <button class="btn btn-primary login">Login</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- contenido principal -->
+  <div class="bg-image justify-content-center align-items-center d-flex">
+    <div class=" login-container">
+      <h3 class="text-center mb-4">Iniciar sesión</h3>
+      <form>
+        <div class="mb-3">
+          <input type="text" class="form-control input-login" id="username" placeholder="Introduce tu usuario" required>
+        </div>
+        <div class="mb-3">
+          <input type="password" class="form-control input-login" id="password"  placeholder="Introduce tu contraseña" required>
+        </div>
+        <button  class="btn boton-login w-100">Iniciar sesión</button>
+      </form>
+    </div>
+  </div>
+  <!-- footer -->
+  <footer class=" text-light py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-12">
+          <h5>Acerca de</h5>
+          <p>
+            Esta página está dedicada a dar visibilidad a los comercios de Elche.
+          </p>
+        </div>
+        <div class="col-md-3 col-12">
+          <h5>Enlaces rápidos</h5>
+          <ul class="list-unstyled">
+            <li><a href="landing.html" class="text-light text-decoration-none">Inicio</a></li>
+            <li><a href="comercio_list.html" class="text-light text-decoration-none">Comercios</a></li>
+            <li><a href="contacto.html" class="text-light text-decoration-none">Contacto</a></li>
+            <li><a href="#" class="text-light text-decoration-none">Política de privacidad</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-12">
+          <h5>Contacto</h5>
+          <address>
+            <strong>Dirección:</strong> Calle Principal, 123<br>
+            <strong>Teléfono:</strong> +34 123 456 789<br>
+            <strong>Email:</strong> contacto@ejemplo.com
+          </address>
+        </div>
+        <div class="col-md-3 col-12">
+          <h5>Síguenos en</h5>
+          <a href="#" class="text-light me-3">
+            <i class="bi bi-facebook me-2"></i> Facebook
+          </a><br>
+          <a href="#" class="text-light me-3">
+            <i class="bi bi-twitter me-2"></i> Twitter
+          </a><br>
+          <a href="#" class="text-light">
+            <i class="bi bi-instagram me-2"></i> Instagram
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
